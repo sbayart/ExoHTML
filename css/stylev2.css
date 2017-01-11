@@ -1,0 +1,146 @@
+
+header {
+    margin: 1em 1em 1em 1em;
+}
+body {
+    background-color: #6ba167;
+    padding: 40px;
+}
+img {
+    border-radius: 15px;
+    margin: 2em 5em 2em 2em;
+    width: 200px;
+    height: 267px;
+    transition: 2s;
+}
+img:hover {
+    width: 220px;
+    height: 293.7px;
+    transition-property: width height;
+    transition-duration: 0.5s 0.5s;
+}
+h1 {
+    font-size: 4em;
+    color: #6ba167;
+    border: 10px solid #386f52;
+    border-radius: 15px;
+    border-style: double;
+    text-align: center;
+    background-image: url(./photos/automn.jpg);
+    background-position: center;
+    box-shadow: 5px 5px 12px #555
+}
+#lettrine:first-letter {
+  font-size : 60px;
+  color : #0e3606;
+  padding:10px 10px 10px 0;
+  float : left;
+}
+ul{
+    padding:0;
+    list-style-type:none;
+    float: right;
+    width: 51em;
+    margin-top: 7em;
+}
+li {
+    color: #315c27;
+    font-weight: bolder;
+}
+nav li {
+    margin-left:2px;
+    float:left;
+}
+nav ul{
+    float: right;
+    width: 30em;
+    margin-top: 0;
+}
+label{
+    color: #b0adad;
+    width: 12em;
+    display: inline-block;
+}
+label.adresse {
+    font-weight: bold;
+}
+a {
+    color:#126920
+}
+nav ul li a {
+ display:block;
+ float:left;
+ width:160px;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ border: 5px solid;
+ border-radius: 15px;
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ background-image: url(./photos/automn.jpg);
+ }
+ul li a:hover {
+ background-color:#4F6896;
+ border-color: #64A469 #A59F2D #A59F2D #64A469;
+ color:#6ba167;
+ }
+nav {
+    font-size: 2em;
+    text-align: justify;
+}
+aside {
+    float: left;
+    width: 15%;
+    height: 20em;
+    margin-left: 1em;
+    padding: 2em 2em 2em 2em;
+    text-align: justify;
+}
+main {
+    width: 70%;
+    float: right;
+    padding: 2em 2em 2em 2em;
+    border-left-style: double;
+    border-color: #AAC03B;
+    border-width: 10px;
+}
+section {
+    margin-left: 3em;
+    padding-right: 2em;
+}
+p {
+    text-align: justify;
+}
+footer {
+    margin-left: 1em;
+    margin-top: 2em;
+    float: none;
+    display: inline-block;
+    text-align: justify;
+    padding-right: 2em;
+}
+section#contact {
+    margin-bottom: 2em;
+}
+input {
+    margin: 1em;
+}
+fieldset {
+    background-color: #307a3e;
+    border: 10px solid #386f52;
+    border-radius: 15px;
+    border-style: double;
+    box-shadow: 5px 5px 12px #555
+}
+legend {
+    color: #1a3323;
+    font-weight: bold;
+    font-size: 2em;
+}
+input#submit {
+    float: right;
+}
+form label {
+    width: 19em;
+}
