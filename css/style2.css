@@ -1,0 +1,21 @@
+label {
+    margin: 1em;
+    display: inline-block;
+    width: 12em;}
+
+fieldset {
+    width: 35em;
+    background-color: #4e754f;
+}
+body {
+    background-color: #5e8d55
+}
+legend {
+    color: #1a3323;
+    font-weight: bold;
+}
+#submit {
+    float: right;
+    margin-right: 2em;
+    margin-top: 2em;
+}
